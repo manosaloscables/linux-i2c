@@ -14,11 +14,11 @@
 * <https://www.kernel.org/doc/Documentation/i2c/dev-interface>
 *******************************************************************************/
 
-//#include <linuxI2C.h>
+#include "linuxI2C.h"
 
 int main() {
   // Llamar una función en otro archivo
   miImpresionHolaMake();
-
+  
   return(0);
 }
